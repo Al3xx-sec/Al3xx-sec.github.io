@@ -3,7 +3,7 @@ title: "When JavaScript Becomes the Data Leak: An XSSI Story"
 date: 2026-01-18 00:00:00 +0800
 categories: [Write-Up]
 tags: [ctf, xssi, web security]
-image: /assets/img/writeup-img/1/POC 1.png
+image: /assets/img/ctf.png
 ---
 
 ## Introduction
