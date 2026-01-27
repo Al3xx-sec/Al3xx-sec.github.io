@@ -1,6 +1,6 @@
 ---
 title: "Imagery - HackTheBox Writeup"
-date: 2026-01-27 12:00:00 +0000
+date: 2026-01-27 00:00:00 +0000
 categories: [boxes]
 tags: [hackthebox, linux, xss, path-traversal, command-injection, privilege-escalation, ctf, medium]
 image:
