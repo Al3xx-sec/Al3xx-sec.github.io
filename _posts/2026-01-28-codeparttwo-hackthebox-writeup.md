@@ -4,7 +4,7 @@ date: 2026-01-28 00:00:00 +0000
 categories: [boxes]
 tags: [hackthebox, linux, cve-2024-28397, js2py, rce, privilege-escalation, sudo-abuse, ctf, easy]
 image:
-  path: /assets/img/box/codeparttwo/logo.png
+  path: /assets/img/box/2/logo.png
   alt: CodePartTwo HackTheBox Machine
 ---
 
@@ -26,15 +26,6 @@ image:
 4. [Privilege Escalation - User](#privilege-escalation---user)
 5. [Privilege Escalation - Root](#privilege-escalation---root)
 6. [Key Takeaways](#key-takeaways)
-
----
-
-## Machine Information
-
-- **Machine Name:** CodePartTwo
-- **IP Address:** 10.129.232.59
-- **Difficulty:** Easy
-- **Operating System:** Linux (Ubuntu)
 
 ---
 
@@ -77,7 +68,7 @@ Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
 
 Navigating to `http://10.129.232.59:8000`, we discover a web application titled "Welcome to CodePartTwo".
 
-![Web Application Homepage](/assets/img/box/codeparttwo/poc1.png)
+![Web Application Homepage](/assets/img/box/2/poc1.png)
 
 The application features a **"Download App"** button that provides the source code for review - a classic code review challenge.
 
@@ -106,7 +97,7 @@ def run_code():
 
 Testing with a simple JavaScript expression `2 + "2"`:
 
-![JavaScript Execution Test](/assets/img/box/codeparttwo/poc2.png)
+![JavaScript Execution Test](/assets/img/box/2/poc2.png)
 
 The response confirms that the application executes JavaScript code server-side.
 
