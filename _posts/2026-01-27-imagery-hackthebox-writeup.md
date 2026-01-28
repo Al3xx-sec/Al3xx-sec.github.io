@@ -8,8 +8,7 @@ image:
   alt: Imagery HackTheBox Machine
 ---
 
-![Machine Info](https://img.shields.io/badge/OS-Linux-blue)
-![[Penetration-Testing-Notes/WriteUps/HTB/Linux/Medium/Gavel/logo.png]]
+![Machine Info](https://img.shields.io/badge/Difficulty-Medium-orange) ![Machine Info](https://img.shields.io/badge/OS-Linux-blue)
 
 ---
 
