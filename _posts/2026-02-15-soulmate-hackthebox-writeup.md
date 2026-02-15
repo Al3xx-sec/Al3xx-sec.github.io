@@ -163,8 +163,6 @@ Using a publicly available proof-of-concept exploit, successful authentication b
 python3 crushftp_auth_bypass.py --target http://ftp.soulmate.htb --username crushadmin
 ```
 
-![CrushFTP Authentication Bypass](/assets/img/writeup-img/3/POC.png)
-
 The exploit successfully bypassed authentication and provided access to the administrative panel.
 
 ### File System Exploration
