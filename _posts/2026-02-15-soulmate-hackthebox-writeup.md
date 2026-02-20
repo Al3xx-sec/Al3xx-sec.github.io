@@ -370,8 +370,6 @@ Research into Erlang/5.2.9 revealed **CVE-2025-32433**, a command injection vuln
 
 Using a publicly available proof-of-concept exploit from [CVE-2025-32433-PoC](https://github.com/NiteeshPujari/CVE-2025-32433-PoC), commands were executed with root privileges.
 
-![CVE-2025-32433 Exploitation](/assets/img/writeup-img/3/POC 2.png)
-
 The exploitation process involved:
 
 **Step 1: Copy /bin/bash to /tmp/rootbash**
