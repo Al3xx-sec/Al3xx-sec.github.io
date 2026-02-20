@@ -171,6 +171,7 @@ With administrative access to CrushFTP, exploration of user directories revealed
 
 ![File System Exploration](/assets/img/box/3/poc1.png)
 
+
 The CrushFTP interface showed:
 - User home directories
 - Web application source code in `/webProd`
