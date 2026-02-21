@@ -4,7 +4,7 @@ date: 2026-02-21 00:00:00 +0000
 categories: [boxes]
 tags: [hackthebox, linux, wordpress, kubernetes, givewp, cve-2024-5932, php-cgi, runc, container-escape, privilege-escalation, ctf, medium]
 image:
-  path: /assets/img/box/giveback/logo.png
+  path: /assets/img/box/4/logo.png
   alt: GiveBack HackTheBox Machine
 ---
 
