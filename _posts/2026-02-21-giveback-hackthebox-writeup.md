@@ -18,13 +18,6 @@ image:
 
 ---
 
-# GiveBack - HackTheBox Writeup
-
-**Difficulty:** Medium  
-**OS:** Linux  
-**Release Date:** [Date]  
-**Author:** [HTB Author]
-
 ## Table of Contents
 
 1. [Reconnaissance](#reconnaissance)
@@ -906,69 +899,6 @@ root
 rootbash-5.1# cat /root/root.txt 
 169cce1742f9b0ac566bb312f9b31168
 ```
-
----
-
-## <a name="takeaways"></a>8. Key Takeaways
-
-### Security Lessons
-
-1. **WordPress Plugin Security:**
-    
-    - Always keep plugins updated
-    - CVE-2024-5932 shows how object injection can lead to RCE
-    - Regular security audits are essential
-2. **Kubernetes Security:**
-    
-    - Service account tokens provide powerful API access
-    - RBAC permissions should follow least privilege principle
-    - Secrets in Kubernetes are base64-encoded, not encrypted by default
-    - Pod-to-pod lateral movement is possible without proper network policies
-3. **Container Security:**
-    
-    - Running containers as root is dangerous
-    - Container escape via runc misconfiguration can lead to host compromise
-    - Bind mounts should be carefully controlled
-    - Security wrappers must validate ALL input, not just specific patterns
-4. **Privilege Escalation:**
-    
-    - SUID binaries are powerful privilege escalation vectors
-    - Container runtimes with sudo access are extremely dangerous
-    - Defense in depth: multiple layers of security are necessary
-
-### Attack Methodology
-
-This machine demonstrated a complex attack chain:
-
-```
-WordPress Exploit → Kubernetes Pod → Lateral Movement → 
-Secret Extraction → SSH Access → Container Escape → Root
-```
-
-Each step required:
-
-- Thorough enumeration
-- Understanding of the underlying technology
-- Creative problem-solving
-- Persistence through obstacles
-
-### Tools Used
-
-- **Nmap** - Port scanning
-- **WPScan** - WordPress enumeration
-- **Ligolo-ng** - Network pivoting
-- **kubectl** - Kubernetes API interaction
-- **Custom exploits** - CVE-2024-5932, PHP-CGI RCE
-- **runc** - Container runtime exploitation
-
----
-
-## Conclusion
-
-GiveBack was an excellent machine for learning about modern cloud-native infrastructure security. It combined web application vulnerabilities, container technology, Kubernetes security, and traditional privilege escalation techniques into a realistic attack scenario that mirrors real-world penetration testing engagements.
-
-The key to solving this machine was understanding how each technology layer works and how they interact - from WordPress plugins to Kubernetes pods to container runtimes. Each vulnerability built upon the last, demonstrating how defense in depth is crucial in modern infrastructure.
-
 ---
 
 **Author:** al3xx  
