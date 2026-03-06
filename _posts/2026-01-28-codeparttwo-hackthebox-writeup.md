@@ -13,7 +13,7 @@ image:
 ---
 
 **Difficulty:** Easy  
-**OS:** Linux (Ubuntu)  
+**OS:** Linux
 **Author:** al3xx
 
 ---
@@ -287,49 +287,3 @@ root
 rootbash-5.0# cat /root/root.txt
 0d0fda784485e30c55227dcbb22fd9b0
 ```
-
----
-
-## Key Takeaways
-
-### Vulnerabilities Exploited
-
-1. **CVE-2024-28397 (js2py RCE)**
-    
-    - Outdated js2py version (0.74) allowed remote code execution
-    - Mitigation: Update js2py to the latest patched version
-2. **Weak Password Storage**
-    
-    - Passwords stored as unsalted MD5 hashes
-    - Mitigation: Use strong hashing algorithms (bcrypt, Argon2) with proper salting
-3. **Insecure Sudo Configuration**
-    
-    - User allowed to run backup utility with custom config as root
-    - Mitigation: Restrict config file paths or validate config contents
-4. **Command Injection via Configuration**
-    
-    - Backup utility executes arbitrary commands from config file
-    - Mitigation: Sanitize or remove command execution features, or restrict to allowlisted commands
-
-### Attack Path Summary
-
-```
-Nmap Scan → Web App Discovery → Source Code Download → 
-CVE-2024-28397 Exploitation → Shell as 'app' → 
-Database Credential Extraction → Password Cracking → 
-Lateral Movement to 'marco' → User Flag → 
-Sudo Abuse via npbackup-cli → SUID Bash → Root Flag
-```
-
----
-
-## Flags
-
-- **User Flag:** `453d7544f5f05a11ebb2ced32393b8df`
-- **Root Flag:** `0d0fda784485e30c55227dcbb22fd9b0`
-
----
-
-**Author:** al3xx  
-**Date:** January 28, 2026  
-**Platform:** HackTheBox

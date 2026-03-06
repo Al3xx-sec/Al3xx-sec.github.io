@@ -429,8 +429,4 @@ cfe5f2fea342233c8cf5c107886d9ae8
 - [Erlang SSH CVE-2025-32433 PoC](https://github.com/NiteeshPujari/CVE-2025-32433-PoC)
 - [HackTheBox Platform](https://www.hackthebox.com/)
 
----
 
-**Author:** Al3xx  
-**Date:** February 15, 2026  
-**Machine IP:** 10.10.11.86

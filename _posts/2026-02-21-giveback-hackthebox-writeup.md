@@ -900,7 +900,3 @@ rootbash-5.1# cat /root/root.txt
 169cce1742f9b0ac566bb312f9b31168
 ```
 ---
-
-**Author:** al3xx  
-**Date:** February 21, 2026  
-**Platform:** HackTheBox
