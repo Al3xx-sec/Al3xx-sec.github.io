@@ -212,6 +212,3 @@ root@expressway:/# cat /root/root.txt
 [FLAG CONTENT]
 ```
 
----
-
-**Tags:** #hackthebox #linux #ipsec #ike #vpn #psk-cracking #cve-2025-32463 #privilege-escalation
