@@ -10,7 +10,8 @@ image:
 
 ![Machine Info](https://img.shields.io/badge/Difficulty-Medium-orange) ![Machine Info](https://img.shields.io/badge/OS-Linux-blue)
 
----
+
+<p align="center"> <img src="/assets/img/box/4/logo.png" width="150"/> </p>
 
 **Difficulty:** Medium  
 **OS:** Linux  
