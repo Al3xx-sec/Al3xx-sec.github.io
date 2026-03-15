@@ -65,6 +65,8 @@ Navigating to `http://dev.titanic.htb` reveals a self-hosted **Gitea** instance 
 
 No directly exploitable CVE exists for this version. However, registering a new account exposes a public repository containing the full source code for the main `titanic.htb` Flask application - including a dangerous `/download` endpoint.
 
+![Gitea instance running on dev.titanic.htb](/assets/img/box/8/poc2.png)
+
 ### Step 2 - Path Traversal (LFI)
 
 The `/download` route concatenates the user-supplied `ticket` parameter directly onto a base directory path with no sanitization or path normalization:
