@@ -1,0 +1,143 @@
+
+
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>/</id>
+  <title>Al3xx</title>
+  <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
+  <updated>2026-03-20T01:57:49+08:00</updated>
+  <author>
+    <name>Al3xx</name>
+    <uri>/</uri>
+  </author>
+  <link rel="self" type="application/atom+xml" href="/feed.xml"/>
+  <link rel="alternate" type="text/html" hreflang="en"
+    href="/"/>
+  <generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator>
+  <rights> © 2026 Al3xx </rights>
+  <icon>/assets/img/favicons/favicon.ico</icon>
+  <logo>/assets/img/favicons/favicon-96x96.png</logo>
+
+
+  
+  <entry>
+    <title>LinkVortex - HackTheBox Writeup</title>
+    <link href="/posts/linkvortex-hackthebox-writeup/" rel="alternate" type="text/html" title="LinkVortex - HackTheBox Writeup" />
+    <published>2026-03-18T08:00:00+08:00</published>
+  
+    <updated>2026-03-18T08:00:00+08:00</updated>
+  
+    <id>/posts/linkvortex-hackthebox-writeup/</id>
+    <content type="text/html" src="/posts/linkvortex-hackthebox-writeup/" />
+    <author>
+      <name>Al3xx</name>
+    </author>
+
+  
+    
+    <category term="boxes" />
+    
+  
+
+  <summary>HackTheBox - LinkVortex          Difficulty: Easy OS: Linux Author: al3xx    1. Reconnaissance  Port Scanning  sudo nmap -sC -sV 10.129.231.194  PORT   STATE SERVICE VERSION 22/tcp open  ssh     OpenSSH 8.9p1 Ubuntu 3ubuntu0.10 (Ubuntu Linux; protocol 2.0) 80/tcp open  http    Apache httpd |_http-title: Did not follow redirect to http://linkvortex.htb/ |_http-server-header: Apache   Virtual Hos...</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>Titanic - HackTheBox Writeup</title>
+    <link href="/posts/titanic-hackthebox-writeup/" rel="alternate" type="text/html" title="Titanic - HackTheBox Writeup" />
+    <published>2026-03-15T08:00:00+08:00</published>
+  
+    <updated>2026-03-16T07:11:50+08:00</updated>
+  
+    <id>/posts/titanic-hackthebox-writeup/</id>
+    <content type="text/html" src="/posts/titanic-hackthebox-writeup/" />
+    <author>
+      <name>Al3xx</name>
+    </author>
+
+  
+    
+    <category term="boxes" />
+    
+  
+
+  <summary>Difficulty: Easy OS: Linux Author: al3xx    Reconnaissance  Port Scan  sudo nmap -sC -sV 10.129.231.221   PORT   STATE SERVICE VERSION 22/tcp open  ssh     OpenSSH 8.9p1 Ubuntu 3ubuntu0.10 (Ubuntu Linux; protocol 2.0) | ssh-hostkey: |   256 73:03:9c:76:eb:04:f1:fe:c9:e9:80:44:9c:7f:13:46 (ECDSA) |_  256 d5:bd:1d:5e:9a:86:1c:eb:88:63:4d:5f:88:4b:7e:04 (ED25519) 80/tcp open  http    Apache httpd ...</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>Infection - HackTheBox Writeup</title>
+    <link href="/posts/infection-hackthebox-writeup/" rel="alternate" type="text/html" title="Infection - HackTheBox Writeup" />
+    <published>2026-03-15T08:00:00+08:00</published>
+  
+    <updated>2026-03-15T13:24:59+08:00</updated>
+  
+    <id>/posts/infection-hackthebox-writeup/</id>
+    <content type="text/html" src="/posts/infection-hackthebox-writeup/" />
+    <author>
+      <name>Al3xx</name>
+    </author>
+
+  
+    
+    <category term="boxes" />
+    
+  
+
+  <summary>Difficulty: Easy OS: Linux Author: al3xx    Summary  Infection is an Easy Linux machine running a Django-based pharmacy web application called MediCare Plus. The machine demonstrates exploitation of CVE-2025-64459, a critical SQL injection vulnerability in Django’s Q object that allows attackers to manipulate ORM query logic by injecting internal parameters (_connector, _negated) through user-c...</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>Gavel - HackTheBox Writeup</title>
+    <link href="/posts/gavel-hackthebox-writeup/" rel="alternate" type="text/html" title="Gavel - HackTheBox Writeup" />
+    <published>2026-03-15T08:00:00+08:00</published>
+  
+    <updated>2026-03-15T08:00:00+08:00</updated>
+  
+    <id>/posts/gavel-hackthebox-writeup/</id>
+    <content type="text/html" src="/posts/gavel-hackthebox-writeup/" />
+    <author>
+      <name>Al3xx</name>
+    </author>
+
+  
+    
+    <category term="boxes" />
+    
+  
+
+  <summary>Difficulty: Medium OS: Linux Author: al3xx    Table of Contents     Overview   Reconnaissance   Initial Access            Git Repository Exposure       SQL Injection in PDO Prepared Statements       Exploiting runkit_function_add()           User Flag   Privilege Escalation            Understanding the Architecture       Two-Stage PHP Sandbox Escape           Root Flag   Key Takeaways     Overv...</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>Expressway - HackTheBox Writeup</title>
+    <link href="/posts/expressway-hackthebox-writeup/" rel="alternate" type="text/html" title="Expressway - HackTheBox Writeup" />
+    <published>2026-03-06T08:00:00+08:00</published>
+  
+    <updated>2026-03-15T13:24:59+08:00</updated>
+  
+    <id>/posts/expressway-hackthebox-writeup/</id>
+    <content type="text/html" src="/posts/expressway-hackthebox-writeup/" />
+    <author>
+      <name>Al3xx</name>
+    </author>
+
+  
+    
+    <category term="boxes" />
+    
+  
+
+  <summary>Difficulty: Easy OS: Linux Author: al3xx    Table of Contents     Overview   Executive Summary   Reconnaissance            TCP Port Scan       UDP Port Scan           IKE Enumeration   PSK Hash Extraction &amp;amp; Cracking            Extracting the Hash       Cracking with psk-crack           Initial Access   Privilege Escalation            Sudo Version Check       Exploitation           Conclusio...</summary>
+
+  </entry>
+
+</feed>
+
+
