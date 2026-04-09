@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Al3xx</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2026-03-20T01:57:49+08:00</updated>
+  <updated>2026-03-23T12:37:05+08:00</updated>
   <author>
     <name>Al3xx</name>
     <uri>/</uri>
@@ -17,6 +17,78 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>Code - HackTheBox Writeup</title>
+    <link href="/posts/code-hackthebox-writeup/" rel="alternate" type="text/html" title="Code - HackTheBox Writeup" />
+    <published>2026-03-22T08:00:00+08:00</published>
+  
+    <updated>2026-03-22T08:00:00+08:00</updated>
+  
+    <id>/posts/code-hackthebox-writeup/</id>
+    <content type="text/html" src="/posts/code-hackthebox-writeup/" />
+    <author>
+      <name>Al3xx</name>
+    </author>
+
+  
+    
+    <category term="boxes" />
+    
+  
+
+  <summary>HackTheBox - Code      Difficulty: Easy OS: Linux Author: al3xx    Table of Contents     Reconnaissance   Web Enumeration - Python Code Editor   Initial Foothold - Python Sandbox Escape   Lateral Movement - SQLite Credential Dump   Privilege Escalation - backy.sh Path Traversal     Reconnaissance  Starting with a full Nmap service scan:  nmap -sCV 10.129.4.71   PORT     STATE SERVICE VERSION 22...</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>PermX - HackTheBox Writeup</title>
+    <link href="/posts/permx-hackthebox-writeup/" rel="alternate" type="text/html" title="PermX - HackTheBox Writeup" />
+    <published>2026-03-21T08:00:00+08:00</published>
+  
+    <updated>2026-03-21T08:00:00+08:00</updated>
+  
+    <id>/posts/permx-hackthebox-writeup/</id>
+    <content type="text/html" src="/posts/permx-hackthebox-writeup/" />
+    <author>
+      <name>Al3xx</name>
+    </author>
+
+  
+    
+    <category term="boxes" />
+    
+  
+
+  <summary>HackTheBox - PermX      Difficulty: Easy OS: Linux Author: al3xx    Table of Contents     Reconnaissance   Virtual Host Enumeration   Directory Enumeration &amp;amp; Version Fingerprinting   Initial Foothold - CVE-2023-4220 (Chamilo RCE)   Lateral Movement - Database Credential Reuse   Privilege Escalation - Symlink Attack via acl.sh     Reconnaissance  Standard Nmap service scan:  nmap -sCV 10.129...</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>Conversor - HackTheBox Writeup</title>
+    <link href="/posts/conversor-hackthebox-writeup/" rel="alternate" type="text/html" title="Conversor - HackTheBox Writeup" />
+    <published>2026-03-20T08:00:00+08:00</published>
+  
+    <updated>2026-03-20T08:00:00+08:00</updated>
+  
+    <id>/posts/conversor-hackthebox-writeup/</id>
+    <content type="text/html" src="/posts/conversor-hackthebox-writeup/" />
+    <author>
+      <name>Al3xx</name>
+    </author>
+
+  
+    
+    <category term="boxes" />
+    
+  
+
+  <summary>HackTheBox - Conversor      Difficulty: Easy OS: Linux Author: al3xx —  Table of Contents     Reconnaissance   Web Enumeration   Source Code Review   Initial Foothold - Path Traversal + Cron RCE   Lateral Movement - SQLite Credential Dump   Privilege Escalation - needrestart Misconfiguration     Reconnaissance  Started with a standard Nmap service scan:  nmap -sC -sV 10.129.238.31   PORT   STAT...</summary>
+
+  </entry>
 
   
   <entry>
@@ -63,78 +135,6 @@
   
 
   <summary>Difficulty: Easy OS: Linux Author: al3xx    Reconnaissance  Port Scan  sudo nmap -sC -sV 10.129.231.221   PORT   STATE SERVICE VERSION 22/tcp open  ssh     OpenSSH 8.9p1 Ubuntu 3ubuntu0.10 (Ubuntu Linux; protocol 2.0) | ssh-hostkey: |   256 73:03:9c:76:eb:04:f1:fe:c9:e9:80:44:9c:7f:13:46 (ECDSA) |_  256 d5:bd:1d:5e:9a:86:1c:eb:88:63:4d:5f:88:4b:7e:04 (ED25519) 80/tcp open  http    Apache httpd ...</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>Infection - HackTheBox Writeup</title>
-    <link href="/posts/infection-hackthebox-writeup/" rel="alternate" type="text/html" title="Infection - HackTheBox Writeup" />
-    <published>2026-03-15T08:00:00+08:00</published>
-  
-    <updated>2026-03-15T13:24:59+08:00</updated>
-  
-    <id>/posts/infection-hackthebox-writeup/</id>
-    <content type="text/html" src="/posts/infection-hackthebox-writeup/" />
-    <author>
-      <name>Al3xx</name>
-    </author>
-
-  
-    
-    <category term="boxes" />
-    
-  
-
-  <summary>Difficulty: Easy OS: Linux Author: al3xx    Summary  Infection is an Easy Linux machine running a Django-based pharmacy web application called MediCare Plus. The machine demonstrates exploitation of CVE-2025-64459, a critical SQL injection vulnerability in Django’s Q object that allows attackers to manipulate ORM query logic by injecting internal parameters (_connector, _negated) through user-c...</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>Gavel - HackTheBox Writeup</title>
-    <link href="/posts/gavel-hackthebox-writeup/" rel="alternate" type="text/html" title="Gavel - HackTheBox Writeup" />
-    <published>2026-03-15T08:00:00+08:00</published>
-  
-    <updated>2026-03-15T08:00:00+08:00</updated>
-  
-    <id>/posts/gavel-hackthebox-writeup/</id>
-    <content type="text/html" src="/posts/gavel-hackthebox-writeup/" />
-    <author>
-      <name>Al3xx</name>
-    </author>
-
-  
-    
-    <category term="boxes" />
-    
-  
-
-  <summary>Difficulty: Medium OS: Linux Author: al3xx    Table of Contents     Overview   Reconnaissance   Initial Access            Git Repository Exposure       SQL Injection in PDO Prepared Statements       Exploiting runkit_function_add()           User Flag   Privilege Escalation            Understanding the Architecture       Two-Stage PHP Sandbox Escape           Root Flag   Key Takeaways     Overv...</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>Expressway - HackTheBox Writeup</title>
-    <link href="/posts/expressway-hackthebox-writeup/" rel="alternate" type="text/html" title="Expressway - HackTheBox Writeup" />
-    <published>2026-03-06T08:00:00+08:00</published>
-  
-    <updated>2026-03-15T13:24:59+08:00</updated>
-  
-    <id>/posts/expressway-hackthebox-writeup/</id>
-    <content type="text/html" src="/posts/expressway-hackthebox-writeup/" />
-    <author>
-      <name>Al3xx</name>
-    </author>
-
-  
-    
-    <category term="boxes" />
-    
-  
-
-  <summary>Difficulty: Easy OS: Linux Author: al3xx    Table of Contents     Overview   Executive Summary   Reconnaissance            TCP Port Scan       UDP Port Scan           IKE Enumeration   PSK Hash Extraction &amp;amp; Cracking            Extracting the Hash       Cracking with psk-crack           Initial Access   Privilege Escalation            Sudo Version Check       Exploitation           Conclusio...</summary>
 
   </entry>
 
