@@ -12,7 +12,10 @@ image:
 
 <p align="center"> <img src="/assets/img/box/14/logo.png" width="150"/> </p>
 
-**Platform:** Vulnlab | **OS:** Linux | **Difficulty:** Easy
+**Platform:** Vulnlab
+**OS:** Linux
+**Difficulty:** Easy
+**Author:** al3xx
 
 ---
 
