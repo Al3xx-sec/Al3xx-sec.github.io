@@ -60,11 +60,11 @@ The `/survey` endpoint redirects us to a **LimeSurvey** installation.
 
 Navigating to `/survey/` reveals the LimeSurvey installer, still accessible after deployment.
 
-![LimeSurvey Installer Welcome Screen](poc1.png)
+![LimeSurvey Installer Welcome Screen](/assets/img/box/17/poc1.png)
 
 The installer's **Configuration** step (step 4) exposes a database settings form that accepts arbitrary host, user, and password values.
 
-![LimeSurvey Database Configuration Form](poc2.png)
+![LimeSurvey Database Configuration Form](/assets/img/box/17/poc2.png)
 
 ### Setting Up a Remote Database
 
@@ -96,7 +96,7 @@ ss -tlnp | grep 3306
 
 After completing the installer and pointing it at our database, we can log in to the LimeSurvey admin panel with the administrator credentials we set during installation.
 
-![LimeSurvey Administration Login](poc3.png)
+![LimeSurvey Administration Login](/assets/img/box/17/poc3.png)
 
 ---
 
@@ -104,13 +104,13 @@ After completing the installer and pointing it at our database, we can log in to
 
 Once logged in, the admin dashboard presents several options including survey management, themes, and plugins.
 
-![LimeSurvey Admin Dashboard](poc4.png)
+![LimeSurvey Admin Dashboard](/assets/img/box/17/poc4.png)
 
 ### Attempting Theme Upload
 
 The **Themes** section has an "Upload & install" button, which could allow uploading a malicious theme.
 
-![LimeSurvey Themes Page](poc5.png)
+![LimeSurvey Themes Page](/assets/img/box/17/poc5.png)
 
 This avenue was attempted but did not yield code execution.
 
@@ -118,7 +118,7 @@ This avenue was attempted but did not yield code execution.
 
 The **Plugins** page (Configuration → Plugins) also has an "Upload & install" option.
 
-![LimeSurvey Plugins Page](poc6.png)
+![LimeSurvey Plugins Page](/assets/img/box/17/poc6.png)
 
 Searching for known exploits revealed a public [LimeSurvey RCE PoC](https://github.com/Y1LD1R1M-1337/Limesurvey-RCE) that abuses the plugin upload functionality. After fixing a few lines in the PoC script, we uploaded a malicious plugin and obtained a reverse shell:
 
