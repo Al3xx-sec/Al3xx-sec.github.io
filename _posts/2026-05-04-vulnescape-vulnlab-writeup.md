@@ -4,7 +4,7 @@ date: 2026-05-04 00:00:00 +0000
 categories: [boxes]
 tags: [windows, easy, rdp, kiosk-escape, applocker-bypass, uac-bypass]
 image:
-  path: /assets/img/box/19/poc1.png
+  path: /assets/img/box/19/logo.png
 ---
 
 ## Reconnaissance
