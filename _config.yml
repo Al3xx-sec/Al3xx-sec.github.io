@@ -27,7 +27,7 @@ description: >- # used by seo meta and the atom feed
 url: ""
 
 github:
-  username: Al3xx-sec # change to your GitHub username
+  username: sbouabid-sec # change to your GitHub username
 
 twitter:
   username: al3xx_xy # change to your Twitter username
@@ -40,7 +40,7 @@ social:
   links:
     # The first element serves as the copyright owner's link
     - https://x.com/al3xx_xy # change to your Twitter homepage
-    - https://github.com/Al3xx-sec # change to your GitHub homepage
+    - https://github.com/sbouabid-sec # change to your GitHub homepage
     - https://www.linkedin.com/in/soulaimane-bouabid-660705245
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
